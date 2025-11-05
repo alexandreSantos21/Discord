@@ -202,10 +202,10 @@ footer span {
 }
 
 
-@media screen and (min-width:800px) and (max-width:1500px){
+@media screen and (min-width:900px) and (max-width:1500px){
     header {
         background-size: 100% 100%;
-        height: 70vh;
+        height: 50vh;
     }
     header p {
         margin:20px 0 20px 0;
@@ -216,39 +216,95 @@ footer span {
     }
 
     .first-section {
-        height: 100vh;
+        height: 75vh;
+        margin: 0;
+    }
+    .first-section .texto-section-1 {
+        height: 50vh;
+        width: 35%;
+        
     }
 
-    .first-section .texto-section-1 {
-        
-        margin-right: 40px;
-    }
     .first-section h2{
         font-size: 1.5rem;
-        width: 100%;
+        width: 70%;
+    }
+    .first-section p {
+        width: 70%;
+    }
+    .first-section img {
+        width: 450px;
+        
+    }
+
+    .second-section {
+        
+        height: 80vh;
     }
     
+    .second-section .text-section-2 {
+    
+       height: 30vh;
+       width: 40%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
     .second-section h2{
-        width: 100%;
-        margin-bottom:20px;
+        width: 60%;
+       
+      
         font-size: 1.8rem;
     }
 
 
     .second-section p {
         text-align: center;
-        width: 100%;
+        width: 70%;
         
     }
-    .second-section .text-section-2 {
-        margin-left: 20px;
+    .second-section div {
+        
+        width: 400px;
+        height: 40vh;
+    }
+
+
+
+    .second-section img {
+        width: 100%;
+        height: 100%;
+    }
+        
+    .tercond-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 70vh;
+        align-items: center;
+    }
+
+
+    .tercond-section .text-section-3 {
+        height: 50vh;
         
     }
 
-    .tercond-section .text-section-3 {
-        margin-right: 20px;
+    .tercond-section .image-section3 {
+        width: 400px;
         
     }
+    .tercond-section .image-section3 img {
+        width: 100%;
+    }
+
+    .tercond-section .text-section-3 {
+        
+        width: 40%;
+    }
+    
+
     .tercond-section h2{
         
         width: 100%;
@@ -256,28 +312,42 @@ footer span {
         text-align: center;
     }
     .tercond-section p {
+        width: 100%;
         text-align: center;
     }
+    .four-section {
+        height: 80vh;
+    }
+
     .four-section img{
-        width: 550px;
+        width: 500px;
         
+    }
+    footer {
+        height: 10vh;
+        
+        display: flex;
+        align-items: center;
     }
 }
 
 @media screen and (min-width:500px) and (max-width:899px){
 
     header {
-        height: 40vh;
-        width: 1000px;        
+        height: 30vh;
+        width: 100%;        
     }
     header h1 {
-        font-size: 2rem;
+        font-size: 3rem;
+        
+        width: 50%;
     }
     header p {
         font-size:15px;
     }
     .first-section {
-        width: 1000px;
+        width: 100%;
+        height:40vh;
         
     }
     .first-section img {
@@ -285,46 +355,69 @@ footer span {
     }
    
     .first-section .texto-section-1 h2{
-        font-size: 1.2rem;
-        margin-right: auto;
+        
+        font-size: 1.5rem;
 
     }
+    .texto-section-1 {
+        height: 30vh;
+    }
     .first-section .texto-section-1 p {
-        font-size: 1rem;
-        width: 60%;
+        font-size: 1.3rem;
+        width: 100%;
         
-        margin-right: auto;
     }
     .second-section {
-        width: 1000px;
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: space-between;
+        
     }
     
     .second-section img {
         width: 500px;
-        margin-right: 100px;
+        
+    }
+    .second-section .text-section-2 p{
+        width: 80%;
+
+    }
+    .second-section .text-section-2 {
+        height: 25vh;
+        
     }
     .tercond-section {
-        width: 1000px;
-        margin-right: auto;
+        width: 100%;
+        height: 35vh;
+        display: flex;
+        justify-content: space-evenly;
+        
     }
     .tercond-section img {
         width: 500px;
     }
+    .tercond-section .text-section-3 {
+        
+        width: 80%;
+     
+        height: 20vh;
+        margin: auto;
+    }
     .tercond-section .text-section-3 h2{
         
-        text-align:center;
-        width: 60%;
-        margin-bottom: 10px;
+        width: 100%;
+        
         
     }
     .tercond-section .text-section-3 p {
         text-align: center;
-        width: 70%;
+        width: 100%;
     }
     .four-section {
-        width: 1000px;
+        width: 100%;
         
-        height: 90vh;
+        height: 35vh;
     }
     .four-section img {
         width: 500px;
@@ -332,14 +425,18 @@ footer span {
         
     }
     footer {
-        width: 1000px;
+        width: 100%;
+        
+        height: 53vh;
+        display: flex;
+        align-items: flex-start;
     }
 }
 
 @media screen and (min-width:390px) and (max-width:499px) {
     
     header {
-        height: 60vh;
+        height: 50vh;
         width: 100%;
 
     }
@@ -359,7 +456,7 @@ footer span {
         flex-direction: column;
     }
     .first-section {
-        height: 90vh;
+        height: 70vh;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -388,6 +485,7 @@ footer span {
         width: 100%;
         display: flex;
         flex-direction: column;
+        height: 70vh;
         
         
 
@@ -403,7 +501,7 @@ footer span {
     }
     .tercond-section {
         width: 100%;
-        height: 65vh;
+        height: 55vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -451,10 +549,10 @@ footer span {
     }
     footer {
         width: 100%;
-        height: 15vh;
+        height: 30vh;
         padding: 5px 0;
         display: flex;
-        
+        align-items: flex-start;
         border-radius: 10px;
 
     }   
